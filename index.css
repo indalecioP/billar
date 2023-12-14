@@ -1,0 +1,54 @@
+body {
+  background: grey;
+  color: #ddd;
+}
+
+canvas {
+  border: solid 1px black;
+  background: #ddd;
+}
+
+h1 {
+  text-align: center;
+  background: #323232;
+}
+
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  margin: 10px;
+  width: 80px;
+  padding: 6px;
+  background: #434343;
+  border-radius: 8px;
+  color: #ddd
+}
+
+button:hover {
+  background: #22a5f1;
+}
+
+.score {
+  margin: 10px;
+  width: 80px;
+  padding: 6px;
+  background: #434343;
+  border-radius: 8px;
+  color: #ddd;
+  text-align: center;
+}
+
+.hidden {
+  position: fixed;
+  border-radius: 10px;
+  top: 180px;
+  background: black;
+  width: 400px;
+  padding: 10px;
+  display: none;
+}
